@@ -1,3 +1,20 @@
+body {
+    font-family: "Lato", sans-serif;
+}
+
+#navDemo{
+    margin-top: 70px;
+}
+
+.menu-icon{
+    font-size: 20px;
+    margin-top: 13px;
+}
+
+.mySlides {
+    display: none;
+}
+
 .brand{
     font-size: 23px;
     margin-left: 20px;
@@ -37,6 +54,34 @@
 
 .course-card img{
     width: 100% !important;
+}
+
+
+.apply-section{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.apply-section .to-btn{
+    background: white;
+    color: black;
+    border: 1px solid black;
+    outline: none;
+    width: 20%;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    text-align: center;
+    padding: 4px;
+}
+
+.apply-section .to-btn:hover{
+    cursor: pointer;
+    background: black;
+    color: white;
+    border: 1px solid white;
 }
 
 @media(max-width: 900px){
