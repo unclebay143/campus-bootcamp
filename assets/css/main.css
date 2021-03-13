@@ -1,0 +1,47 @@
+.brand{
+    font-size: 23px;
+    margin-left: 20px;
+}
+
+.nav-con{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-link{
+    display: flex;
+    align-items: center;
+    height: 20%;
+    margin-right: 35px;
+}
+
+
+.mySlides{
+    background-color: black;
+}
+
+.mySlides img{
+    height: 500px;
+    opacity: 0.4;
+}
+
+.course-card{
+    /* margin: 5px; */
+}
+
+.middle-card{
+    /* margin-right: 4px; */
+}
+
+.course-card img{
+    width: 100% !important;
+}
+
+@media(max-width: 900px){
+    .brand{
+        font-size: 23px;
+        margin-left: 0px;
+    }
+}
