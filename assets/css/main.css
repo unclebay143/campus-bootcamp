@@ -44,14 +44,6 @@ body {
     opacity: 0.4;
 }
 
-.course-card{
-    /* margin: 5px; */
-}
-
-.middle-card{
-    /* margin-right: 4px; */
-}
-
 .course-card img{
     width: 100% !important;
 }
