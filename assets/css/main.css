@@ -111,10 +111,12 @@
                         
                         .carousel .testimonial {
                             padding: 30px 0 10px;
+                            color: black;
                         }
                         
                         .carousel .overview {
                             font-style: italic;
+                            color: black;
                         }
                         
                         .carousel .overview b {
