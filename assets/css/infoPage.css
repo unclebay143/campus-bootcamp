@@ -1,0 +1,90 @@
+#card-container{
+  margin-left: 13%;
+}
+.card{
+  width:250px;
+  margin-inline: 40px;
+  border: none;
+  margin-top: 6%;
+  vertical-align: middle;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.624), 0 6px 20px grey;
+  
+}
+.card-container h3{
+  font-size: 30px;
+  color: black;
+  text-align: center;
+  margin: 8px 0px 15px 0px;
+  font-weight: bolder;
+  margin-top: 7%
+}
+div.card-body{
+    
+     height: 140px;
+     text-align: center;
+}
+div.img-top{
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.624), 0 6px 20px grey;
+  width: fit-content;
+  border-radius: 5%;
+}
+
+h5{
+  font-weight: bold;
+  font-size: small;
+  text-align: center;
+}
+p{
+  font-size: 13px;
+}
+.card-body:hover{
+  background-color: rgb(117, 204, 207);
+}
+footer{
+  margin-top: 15px;
+}
+
+@media (max-width: 540px){
+  .card{
+    width: 100%;
+   margin-left: -25px;
+   margin-right: 4%;
+  }
+
+h3{
+   padding-top: 10%;
+   font-size: x-small;
+   padding-left: 10%;
+
+ }
+ h5{
+   font-size: 20px;
+ }
+ p{
+   font-size: 18px;
+ }
+footer{
+  width: 112%;
+  margin-top: 15px;
+}
+
+@media(width: 1024px){
+  .card{
+    width: 200px;
+    margin-right: 40px;
+    margin-left: 10px;
+  }
+  }
+
+@media(width:768px){
+  .card{
+    margin-right: 5%;
+    margin-left: 24px;
+  }
+  h3{
+    padding-top: 5%;
+    font-weight: bolder;
+  }
+}
+
+
