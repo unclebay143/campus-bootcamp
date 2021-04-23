@@ -17,7 +17,7 @@
         <div class="w3-bar w3-black w3-card">
             <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars menu-icon"></i></a>
                 <div class=" nav-con">
-                <h4 class="w3-bar-item brand">FPB BootCamp</h4>
+                <h4 class="w3-bar-item brand">Campus BootCamp</h4>
                 <div class="nav-link">
                     <a href="#" class="w3-bar-item w3-button w3-hide-small nav-con-link">HOME</a>
                     <a href="#bootcamp" class="w3-bar-item w3-button w3-hide-small nav-con-link">ABOUT</a>
@@ -27,7 +27,7 @@
                         <div class="w3-dropdown-content w3-bar-block w3-card-4">
                             <a href="#" class="w3-bar-item w3-button">Meet the TEAM</a>
                             <a href="#" class="w3-bar-item w3-button">Participants</a>
-                            <a href="#" class="w3-bar-item w3-button">Sponsor</a>
+                            <a href="#contact" class="w3-bar-item w3-button">Sponsor</a>
                         </div>
                     </div>
                 </div>
@@ -48,7 +48,7 @@
 
         <!-- Automatic Slideshow Images -->
         <div class="mySlides w3-display-container w3-center">
-            <img src="./assets/img/img-1.jpg" style="width:100%">
+            <img src="./assets/img/img-1.jpg" style="width:100%; object-fit: cover;">
             <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small-disable">
             <h2>Team work</h2>
             <h4><b>Learn how teamwork is done in real life!</b></h4>   
@@ -95,9 +95,9 @@
                     <p class="w3-opacity w3-center"><i>Remember to book your tent!</i></p><br>
 
                     <ul class="w3-ul w3-border w3-white w3-text-grey">
-                        <li class="w3-padding">APPLICATIONS <span class="w3-tag w3-red w3-margin-left">Ongoing</span> <span class="w3-badge w3-right w3-margin-right">40+</span></li>
-                        <li class="w3-padding">SELECTION <span class="w3-badge w3-right w3-margin-right">0</span></li>
-                        <li class="w3-padding">GRADUANTS <span class="w3-badge w3-right w3-margin-right">0</span></li>
+                        <li class="w3-padding">APPLICATIONS <span class="w3-tag w3-red w3-margin-left">Closed</span> <span class="w3-badge w3-right w3-margin-right">40+</span></li>
+                        <li class="w3-padding">SELECTION <span class="w3-badge w3-right w3-margin-right">20+</span></li>
+                        <li class="w3-padding">GRADUANTS <span class="w3-badge w3-right w3-margin-right">15+</span></li>
                     </ul>
                     <div class="apply-section">
                         <a href="https://forms.gle/L3X97MS4S18zsjWw6" class="to-btn">Apply</a>
@@ -131,10 +131,11 @@
                 <i class="fa fa-map-marker" style="width:30px"></i> Computer Science Department, FPB<br>
                 <i class="fa fa-phone" style="width:30px"></i> Phone: 08083826262<br>
                 <i class="fa fa-envelope" style="width:30px"> </i> Email: unclebigbay@gmail.com<br>
-                <i class="fa fa-whatsapp" style="width:30px"> </i> Join Whatsapp Group<br>
+                <i class="fa fa-whatsapp" style="width:30px"> </i><a href="https://chat.whatsapp.com/FwzVuGqqJWv4Y0anfbjbdu" target="_blank" rel="noopener noreferrer">Join Whatsapp Group</a> <br>
             </div>
             <div class="w3-col m6">
-                <form>
+                <!-- netlify handles the data collection -->
+                <form name="contactUS" netlify>
                 <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
                     <div class="w3-half">
                     <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
